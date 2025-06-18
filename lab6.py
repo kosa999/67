@@ -3,7 +3,7 @@ import operator
 
 numbers = [2, 3, 4]
 result = reduce(operator.mul, numbers)
-print("Product:", result)
+print("otvet:", result)
 
 
 
@@ -11,10 +11,10 @@ print("Product:", result)
 def count_case(s):
     upper = sum(1 for c in s if c.isupper())
     lower = sum(1 for c in s if c.islower())
-    print("Uppercase letters:", upper)
-    print("Lowercase letters:", lower)
+    print("Uppercase:", upper)
+    print("Lowercase:", lower)
 
-count_case("Hello World!")
+count_case("Hello KBTU!")
 
 
 
@@ -23,7 +23,7 @@ def is_palindrome(s):
     return s == s[::-1]
 
 print(is_palindrome("radar"))  # True
-print(is_palindrome("hello"))  # False
+print(is_palindrome("doner"))  # False
 
 
 

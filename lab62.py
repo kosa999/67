@@ -90,7 +90,7 @@ print()
 
 import os
 
-path = "file_delete.txt"
+path = "111.py"
 
 if os.path.exists(path):
     if os.access(path, os.W_OK):
